@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: sans-serif;
+
+}
+body{
+    background-image: url("https://pusulasecurity.com/wp-content/uploads/2024/04/pusulab.jpg");
+    color: #fff;
+}
+.container{
+    max-width: 1000px;
+    margin-inline: auto;
+    width: 100%;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 20px;
+}
+#form * {
+    padding: 10px;
+    border-radius: 4px;
+
+}
+
+#form input{
+    border: 1px solid white;
+}
+#wraper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+#user{
+    margin-top: 50px;
+    max-width: 250px;
+    border: 2px white solid;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.img{
+    display: flex;
+    margin-inline: auto;
+    width: 150px;
+}
